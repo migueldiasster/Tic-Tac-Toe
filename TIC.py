@@ -1,4 +1,5 @@
 from tkinter import *
+
 import numpy as np
 
 size_of_board = 600
@@ -175,10 +176,6 @@ class Tic_Tac_Toe():
             print('Its a tie')
 
         return gameover
-
-
-
-
 
     def click(self, event):
         grid_position = [event.x, event.y]
